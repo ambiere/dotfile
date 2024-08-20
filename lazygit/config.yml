@@ -1,0 +1,29 @@
+gui:
+  authorColors:
+    "*": "#808080"
+  theme:
+    activeBorderColor:
+      - "#101010"
+    inactiveBorderColor:
+      - "#101010"
+    optionsTextColor:
+      - "#F2F2F2"
+    unstagedChangesColor:
+      - "#FFC799"
+    selectedLineBgColor:
+      - "#404040"
+    searchingActiveBorderColor:
+      - "#101010"
+    defaultFgColor:
+      - "#8C8C8C"
+
+  showFileTree: false
+  showListFooter: false
+  showBottomLine: false
+  showPanelJumps: false
+
+git:
+  log:
+    showGraph: "when-maximised"
+  allBranchesLogCmd: "git log --graph --all --abbrev-commit --decorate --date=relative  --pretty=medium"
+  branchLogCmd: "git log --graph --abbrev-commit --decorate --date=relative --pretty=medium {{branchName}} --"
