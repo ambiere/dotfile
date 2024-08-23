@@ -1,3 +1,3 @@
 # .tmux.conf
 
-Custom configuration file for tmux.
+Custom configurations file for tmux.
