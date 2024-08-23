@@ -1,4 +1,4 @@
-# lazygit config
+# Lazygit Configurations
 
-Custom global config file for lazygit that override
-settings in the global config file.
+Custom configurations file for lazygit that override
+settings in the global configurations file.
